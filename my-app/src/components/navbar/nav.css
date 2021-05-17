@@ -1,0 +1,30 @@
+.nav {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    display: flex;
+}
+
+.nav-sub {
+    padding: 1rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.nav-sub:hover {
+    color: purple;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-sub-1 {
+    color: purple;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.nav_title {
+    font-weight: 600;
+}

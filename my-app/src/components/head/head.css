@@ -1,0 +1,69 @@
+.header {
+    background-color: white;
+    z-index: 1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    border-bottom: 1px solid gray;
+    box-shadow: 0 8px 6px -6px gray;
+    width: 100%;
+}
+
+.header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header_title_div_2 {
+    display: flex;
+    align-items: center;
+}
+
+.header_title_span {
+    margin-left: 5px;
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.expired {
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.header_title {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.header_date {
+    font-size: 1rem;
+    font-weight: 200;
+    color: gray;
+}
+
+.header_components {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.comp_div {
+    display: flex;
+    align-items: center;
+}
+
+.comp_title {
+    color: white;
+    margin: 0;
+    padding-left: 5px;
+}
