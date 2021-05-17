@@ -8,8 +8,8 @@
     box-shadow: -8px 0 10px -6px gray;
 }
 
-.icon {
+.side-icon {
     width: 100%;
-    font-size: 2.5rem;
-    color: gray;
+    font-size: 2.5rem !important;
+    color: gray !important;
 }

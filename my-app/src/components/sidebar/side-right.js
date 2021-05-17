@@ -7,10 +7,10 @@ import profile from './rao.jpg';
 function SideRight() {
     return(
         <div className="main">
-            <CgProfile className="icon" style={{ marginTop: "1rem" }} />
-            <IoNotificationsCircleSharp className="icon" />
-            <IoIosChatbubbles className="icon" />
-            <IoIosSettings className="icon" style={{ paddingBottom: "1rem", borderBottom: "3px solid gray" }} />
+            <CgProfile className="side-icon" style={{ marginTop: "1rem" }} />
+            <IoNotificationsCircleSharp className="side-icon" />
+            <IoIosChatbubbles className="side-icon" />
+            <IoIosSettings className="side-icon" style={{ paddingBottom: "1rem", borderBottom: "3px solid gray" }} />
         </div>
     );
 }

@@ -16,7 +16,7 @@ function App() {
       <Router>
         <Nav />
         <Switch>
-          <Route path='/livePolls' exact component={Live} />
+          <Route path='/' exact component={Live} />
           <Route path='/AudienceQnA' exact component={Audience} />
           <Route path='/Ideas' exact component={Ideas} />
           <Route path='/Analytics' exact component={Analytics} />

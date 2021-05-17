@@ -12,7 +12,7 @@ function Nav() {
 
     return(
         <section className="nav">
-            <Link to="/LivePolls" style={{ textDecoration: "none" }}><div className={isActive === "Live Polls" ? "nav-sub-1" : "nav-sub"} onClick={() => {onToggle("Live Polls")}}>
+            <Link to="/" style={{ textDecoration: "none" }}><div className={isActive === "Live Polls" ? "nav-sub-1" : "nav-sub"} onClick={() => {onToggle("Live Polls")}}>
                 <span className="nav_title">Live Polls</span>
             </div></Link>
             <Link to="/AudienceQnA" style={{ textDecoration: "none" }}><div className={isActive === "Audience" ? "nav-sub-1" : "nav-sub"} onClick={() => onToggle("Audience")}>
