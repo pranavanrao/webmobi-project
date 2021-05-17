@@ -1,12 +1,11 @@
-import './side-right.css';
+import './side.css';
 import { IoNotificationsCircleSharp } from 'react-icons/io5';
 import { IoIosChatbubbles, IoIosSettings } from 'react-icons/io';
 import { CgProfile } from 'react-icons/cg'
-import profile from './rao.jpg';
 
 function SideRight() {
     return(
-        <div className="main">
+        <div className="main-right">
             <CgProfile className="side-icon" style={{ marginTop: "1rem" }} />
             <IoNotificationsCircleSharp className="side-icon" />
             <IoIosChatbubbles className="side-icon" />

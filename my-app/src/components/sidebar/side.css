@@ -1,0 +1,48 @@
+.main-right {
+    float: right;
+    width: 5%;
+    height: 100vh;
+    background-color: white;
+    z-index: 1;
+    border-left: 1px solid gray;
+    box-shadow: -8px 0 10px -6px gray;
+}
+
+.main-left {
+    float: left;
+    width: 8%;
+    height: 100vh;
+    background-color: white;
+    z-index: 1;
+    border-left: 1px solid gray;
+    box-shadow: 10px 0 10px -6px gray;
+}
+
+.side-icon {
+    width: 100%;
+    font-size: 2.5rem !important;
+    color: gray !important;
+}
+
+.left-icon-div {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.left-icon-div:hover {
+    border: 1px solid purple;
+    color: purple !important;
+}
+
+.left-icon {
+    font-size: 3rem;
+}
+
+.left-icon-text {
+    font-size: 1rem;
+    padding: .5rem;
+}

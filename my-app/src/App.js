@@ -7,10 +7,12 @@ import Live from './pages/live.js';
 import Audience from './pages/audience.js';
 import Ideas from './pages/ideas.js';
 import Analytics from './pages/analytics.js'
+import SideLeft from './components/sidebar/side-left'
 
 function App() {
   return (
     <div className="App">
+      <SideLeft />
       <SideRight />
       <Head />
       <Router>
