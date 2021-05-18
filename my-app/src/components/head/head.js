@@ -1,5 +1,7 @@
+import React, { useState } from 'react';
 import './head.css';
 import { FiYoutube, FiShare2 } from 'react-icons/fi';
+
 
 function Head() {
     return(

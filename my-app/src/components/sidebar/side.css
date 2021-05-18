@@ -18,10 +18,33 @@
     box-shadow: 10px 0 10px -6px gray;
 }
 
+.main-left.active {
+    width: 0%;
+    transition: 350ms;
+    display: none;
+}
+
+.arrow-left {
+    position: absolute;
+    font-size: 2rem;
+    left: 7rem;
+    top: 2rem;
+    cursor: pointer;
+}
+
+.arrow-right {
+    position: absolute;
+    font-size: 2rem;
+    left: 0;
+    top: 2rem;
+    cursor: pointer;
+}
+
 .side-icon {
     width: 100%;
     font-size: 2.5rem !important;
     color: gray !important;
+    cursor: pointer;
 }
 
 .left-icon-div {
@@ -31,6 +54,7 @@
     align-items: center;
     border-radius: 5px;
     border: 1px solid white;
+    cursor: pointer;
 }
 
 .left-icon-div:hover {

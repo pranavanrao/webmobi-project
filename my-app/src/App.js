@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './App.css';
 import Head from './components/head/head'
 import SideRight from './components/sidebar/side-right'
@@ -10,9 +11,10 @@ import Analytics from './pages/analytics.js'
 import SideLeft from './components/sidebar/side-left'
 
 function App() {
+
   return (
     <div className="App">
-      <SideLeft />
+      <SideLeft/>
       <SideRight />
       <Head />
       <Router>

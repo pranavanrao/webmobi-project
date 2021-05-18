@@ -16,6 +16,10 @@
     
 }
 
+.header_title_div {
+    padding-left: 2rem;
+}
+
 .header_title_div_2 {
     display: flex;
     align-items: center;
@@ -60,6 +64,7 @@
 .comp_div {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .comp_title {
