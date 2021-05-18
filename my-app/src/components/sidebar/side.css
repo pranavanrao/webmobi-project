@@ -18,8 +18,7 @@
     box-shadow: 10px 0 10px -6px gray;
 }
 
-.main-left.active {
-    width: 0%;
+.main-left-active {
     transition: 350ms;
     display: none;
 }
@@ -69,4 +68,40 @@
 .left-icon-text {
     font-size: 1rem;
     padding: .5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-left {
+        width: 0%;
+        display: none;
+    }
+    .main-left-active {
+        position: absolute;
+        width: 30%;
+        display: block;
+        height: 100vh;
+        background-color: white;
+        z-index: 1;
+        border-left: 1px solid gray;
+        box-shadow: 10px 0 10px -6px gray;
+    }
+    .arrow-left {
+        left: 0;
+    }
+    .arrow-right {
+        left: 30%;
+    }
+    .main-right {
+        width: 15%;
+        z-index: 20;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1025px) {
+    .main-left {
+        width: 10%;
+    }
+    .arrow-left {
+        left: 10%;
+    }
 }

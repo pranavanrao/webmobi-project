@@ -12,7 +12,7 @@ function SideLeft() {
     return(
         <>
         {sidebar? <BiRightArrowCircle onClick={showSidebar} className="arrow-right" />  : <BiLeftArrowCircle onClick={showSidebar} className="arrow-left" />}
-        <section className={sidebar? "main-left active" : "main-left"}>
+        <section className={sidebar? "main-left-active" : "main-left"}>
             <div className="left-icon-div" style={{ backgroundColor: "rgb(201, 79, 201)" }}>
                 <AiFillAppstore className="left-icon" style={{ color: "white" }} />
                 <span className="left-icon-text" style={{ color: "white" }} >WebMobi</span>
